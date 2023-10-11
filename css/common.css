@@ -1,0 +1,290 @@
+/* 各个页面相同的样式表：头、尾部 */
+/* 版心居中 */
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 1. 快捷导航区域: shortcut */
+.shortcut{
+    height: 52px;
+    background-color: #382e39;
+}
+
+.shortcut .wrapper{
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.shortcut .wrapper ul{
+    float: right;
+}
+
+.shortcut .wrapper li{
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper a{
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.shortcut .wrapper a:hover,
+.shortcut .wrapper a:hover .iconfont {
+    color: #fff;
+}
+
+/* 1a. 手机版旁边的手机图标 */
+.shortcut .wrapper .iconfont{ 
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* 1b. 清除最后一个a的边框线 */
+.shortcut .wrapper li:last-child a{
+    border: 0;
+}
+
+/* 2. 头部区域: header (由四个部分组成：logo, nav, search, cart)*/
+.header{
+    margin: 30px auto;
+    height: 70px;
+    /* background-color: pink; */
+}
+
+/* 2a. logo部分 */
+.logo{
+    float: left;
+    width: 207px;
+    height: 70px;
+    /* background-color: skyblue; */
+}
+
+/* logo搜索引擎优化的做法 */
+.logo h1{
+    width: 207px;
+    height: 70px;
+}
+
+.logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    /* 隐藏文字 */
+    font-size: 0;
+}
+
+/* 2b. 导航部分 */
+.nav{
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+    /* background-color: orange; */
+}
+
+.nav li{
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.nav li a{
+    padding-bottom: 7px;
+}
+
+.nav li a:hover{
+    color: #382e39;
+    border-bottom: 1px solid #382e39;
+}
+
+/* 2c. 搜索部分 */
+.search{
+    position: relative;
+    margin-top: 18px;
+    float: left;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    border-radius: 15px;
+}
+
+.search input{
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+    border-radius: 15px;
+}
+
+.search input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.search .iconfont{
+    position: absolute;
+    left: 2px;
+    font-size: 20px;
+}
+
+/* 2d. 购物车部分 */
+.cart {
+    position: relative;
+}
+
+.cart .iconfont{
+    float: left;
+    margin-top: 16px;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+    font-size: 25px;
+}
+
+.cart span{
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+
+/* 3. 尾部版权区域: footer */
+.footer .wrapper{
+    width: 1393px;
+}
+
+/* 3a. 上半部分 */
+.footer .container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 40px 25px;
+    margin: 0 auto;
+    border-top: 3px solid #f2f2f2;
+    /* background:purple; */
+}
+
+.footer .contact dl {
+    padding: 0px 72px;
+    height: 190px;
+    border-right: 1px solid #f2f2f2;
+    /* background: orange; */
+}
+
+.footer .contact dl:last-child {
+    border-right: 0px;
+}
+
+.footer .contact dt {
+    display: block;
+    line-height: 1;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer .contact dd {
+    float: left;
+    width: 92px;
+    height: 92px;
+    margin: 36px 12px 0 0;
+    padding-top: 10px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ededed;
+}
+
+.footer .contact .iconfont {
+    display: block;
+    font-size: 36px;
+}
+
+.footer .contact dd:hover .iconfont {
+    color: #cc56d7;
+}
+
+.footer .contact .qrcode{
+    width: 92px;
+    height: 92px;
+    padding: 7px;
+}
+
+.footer .contact .scan span{
+    font-size: 14px;
+}
+
+.footer .contact .icon-saoma{
+    font-size: 18px;
+}
+
+.footer .contact .call {
+    width: 100px;
+    border: 0px;
+}
+
+.footer .top{
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+    background-color: #382e39;
+}
+.footer .top li{
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+    /* background-color: pink; */
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 58px;
+}
+
+.footer .top li:last-child{
+    margin-right: 0;
+}
+
+.footer .top span{
+    float: left;
+    display: block;
+    width: 57px;
+    height: 57px;
+}
+
+.footer .top .iconfont{
+    font-size: 45px;
+}
+
+/* 3b. 下半部分 */
+.footer .bottom{
+    padding-top: 40px;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    background-color: #382e39;
+}
+
+.footer .bottom a{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer .bottom p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
