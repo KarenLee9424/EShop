@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shopee官网，致力于打造全球最大的电商购物平台。">
+    <meta name="keywords" content="Shopee,食品,生鲜,服装,家电,电商,购物">
+    <title>SHOPEE-Fresh, Friendly, Fast!</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/car.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <script src="./jquery.min.js"></script>
+</head>
+<body>
+    <!-- 快捷导航shortcut -->
+    <div class="shortcut">
+        <div class="wrapper">
+            <ul>
+                <li><a href="login.html">登录</a></li>
+                <li><a href="./register.html">免费注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="./member.html">会员中心</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#"><span class="iconfont icon-mobile-alt"></span>手机版</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 头部区域header -->
+    <div class="header wrapper">
+        <div class="logo">
+            <h1><a href="./index.html">Shopee</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">服饰</a></li>
+                <li><a href="#">母婴</a></li>
+                <li><a href="#">个护</a></li>
+                <li><a href="#">严选</a></li>
+                <li><a href="list.html">数码</a></li>
+                <li><a href="#">运动</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="搜一搜">
+            <span class="iconfont icon-icon-test8"></span>
+        </div>
+        <div class="cart">
+            <a href="./car.html" class="iconfont icon-icon-test7"></a><span>3</span>
+        </div>
+    </div>
+
+    <div class="c-container clearfix">
+        <div class="wrapper">
+            <div class="cart-filter-bar">
+                <em>全部商品</em>
+            </div>
+            <!-- 购物车主要核心区域 -->
+            <div class="cart-warp">
+                <!-- 头部全选模块 -->
+                <div class="cart-thead">
+                    <div class="t-checkbox">
+                        <input type="checkbox" name="" id="" class="checkall"> 全选
+                    </div>
+                    <div class="t-goods">商品</div>
+                    <div class="t-price">单价</div>
+                    <div class="t-num">数量</div>
+                    <div class="t-sum">小计</div>
+                    <div class="t-action">操作</div>
+                </div>
+                <!-- 商品详细模块 -->
+                <div class="cart-item-list">
+                    <div class="cart-item check-cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" checked class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="./uploads/mobile01.jpg" alt="">
+                            </div>
+                            <div class="p-msg">OPPO K9x 8GB+128GB 银紫超梦 天玑810 5000mAh长续航 33W快充 90Hz电竞</div>
+                        </div>
+                        <div class="p-price">RM2399.00</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">RM2399.00</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="./uploads/mobile02.jpg" alt="">
+                            </div>
+                            <div class="p-msg">荣耀80 1.6亿像素超清主摄 AI Vlog视频大师 全新Magic OS 7.0系统 5G手机</div>
+                        </div>
+                        <div class="p-price">RM1299.00</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">RM1299.00</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="p-checkbox">
+                            <input type="checkbox" name="" id="" class="j-checkbox">
+                        </div>
+                        <div class="p-goods">
+                            <div class="p-img">
+                                <img src="./uploads/mobile03.jpg" alt="">
+                            </div>
+                            <div class="p-msg">Redmi Note 11 5G 天玑810 33W Pro快充 5000mAh大电池 6GB+128GB</div>
+                        </div>
+                        <div class="p-price">RM1149.00</div>
+                        <div class="p-num">
+                            <div class="quantity-form">
+                                <a href="javascript:;" class="decrement">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;" class="increment">+</a>
+                            </div>
+                        </div>
+                        <div class="p-sum">RM1149.00</div>
+                        <div class="p-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                </div>
+
+                <!-- 结算模块 -->
+                <div class="cart-floatbar">
+                    <div class="select-all">
+                        <input type="checkbox" name="" id="" class="checkall">全选
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:;" class="remove-batch"> 删除选中的商品</a>
+                        <a href="javascript:;" class="clear-all">清理购物车</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="amount-sum">已经选<em>1</em>件商品</div>
+                        <div class="price-sum">总价： <em>RM2399.00</em></div>
+                        <button class="btn-area">结算</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 间隔space -->
+    <div class="space"></div>
+
+    <!-- 尾部footer -->
+    <div class="footer">
+        <div class="contact">
+            <div class="container">
+                <dl>
+                    <dt>客户服务</dt>
+                    <dd><a href="#">
+                        <span class="iconfont icon-icon-test2"></span>
+                        在线客服</a>
+                    </dd>
+                    <dd><a href="#">
+                        <span class="iconfont icon-shuoming"></span>
+                        问题反馈</a>
+                    </dd>
+
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="#">
+                        <span class="iconfont icon-icon-test34"></span>
+                        Facebook</a>
+                    </dd>
+                    <dd><a href="#">
+                        <span class="iconfont icon-icon-test35"></span>
+                        Instagram</a>
+                    </dd>
+
+                </dl>
+                <dl>
+                    <dt>下载APP</dt>
+                    <dd class="qrcode">
+                        <img src="./uploads/qrcode.png" alt="">
+                    </dd>
+                    <dd class="scan">
+                        <i class="iconfont icon-saoma"></i>
+                        <span>扫描二维码立马下载APP</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>服务热线</dt>
+                    <dd class="call">03-12345678<small>周日至周四 08:00-18:00</small></dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 版权区域 -->
+        <div class="top">
+            <ul>
+                <!-- 另一种写法：通过伪元素添加标签实现精灵图 -->
+                <li><span class="iconfont icon-icon-test39"></span>价格亲民</li>
+                <li><span class="iconfont icon-yunshu"></span>物流快递</li>
+                <li><span class="iconfont icon-shuiguo"></span>品质新鲜</li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <p>
+                <a href="#">关于我们</a> |
+                <a href="#">帮助中心</a> |
+                <a href="#">售后服务</a> |
+                <a href="#">配送与验收</a> |
+                <a href="#">商务合作</a> |
+                <a href="#">搜索推荐</a> |
+                <a href="#">友情链接</a> 
+            </p> 
+            <p>CopyRight © KLCW</p>
+        </div>
+    </div>
+    <script src="./js/car.js"></script>
+    <script src="./js/login_data.js"></script>
+</body>
+</html>
